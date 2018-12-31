@@ -1,5 +1,5 @@
 {
-    "name": "cbschuld/browser.php",
+    "name": "argevollen/browser.php",
     "description": "A PHP Class to detect a user's Browser",
     "keywords": ["browser", "user agent", "detection"],
     "homepage": "http://chrisschuld.com/projects/browser-php-detecting-a-users-browser-from-php.html",
