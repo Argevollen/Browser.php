@@ -147,7 +147,168 @@ class Browser
     const PLATFORM_TWITTERBOOT = 'Twitter Boot';
     const PLATFORM_APACHE = 'Apache';
 
+    // OS. Newly added obtained from http://user-agent-string.info/list-of-ua/os
+    // UPDATED 31.12.2018
     const OPERATING_SYSTEM_UNKNOWN = 'unknown';
+    
+    //BLACKBERRY
+    const OPERATING_SYSTEM_BLACKBERRY = 'BlackBerry';
+    const OPERATING_SYSTEM_BLACKBERRY_TABLET_OS_1 = 'BlackBerry Tablet OS 1';
+    const OPERATING_SYSTEM_BLACKBERRY_TABLET_OS_2 = 'BlackBerry Tablet OS 2';
+    //WINDOWS
+    const OPERATING_SYSTEM_WINDOWS = 'Windows';
+    const OPERATING_SYSTEM_WINDOWS_CE = 'Windows CE';
+    const OPERATING_SYSTEM_WINDOWS_10 = 'Windows 10';
+    const OPERATING_SYSTEM_WINDOWS_8_1 = 'Windows 8.1';
+    const OPERATING_SYSTEM_WINDOWS_RT = 'Windows RT';
+    const OPERATING_SYSTEM_WINDOWS_8 = 'Windows 8';
+    const OPERATING_SYSTEM_WINDOWS_7 = 'Windows 7';
+    const OPERATING_SYSTEM_WINDOWS_VISTA = 'Windows Vista';
+    const OPERATING_SYSTEM_WINDOWS_SERVER = 'Windows 2003 Server';
+    const OPERATING_SYSTEM_WINDOWS_XP = 'Windows XP';
+    const OPERATING_SYSTEM_WINDOWS_2000 = 'Windows 2000';
+    const OPERATING_SYSTEM_WINDOWS_ME = 'Windows ME';
+    const OPERATING_SYSTEM_WINDOWS_98 = 'Windows 98';
+    const OPERATING_SYSTEM_WINDOWS_95 = 'Windows 95';
+    const OPERATING_SYSTEM_WINDOWS_3 = 'Windows 3';
+    const OPERATING_SYSTEM_WINDOWS_NT = 'Windows NT';
+    const OPERATING_SYSTEM_WINDOWS_MOBILE = 'Windows Mobile';
+    const OPERATING_SYSTEM_WINDOWS_PHONE_7 = 'Windows Phone 7';
+    const OPERATING_SYSTEM_WINDOWS_PHONE_8 = 'Windows Phone 8';
+    const OPERATING_SYSTEM_WINDOWS_PHONE_8_1 = 'Windows Phone 8.1';
+    const OPERATING_SYSTEM_WINDOWS_PHONE_10 = 'Windows 10 Mobile';
+    const OPERATING_SYSTEM_WINDOWS_10_IOT = 'Windows 10 IoT';
+    //CONSOLES
+    const OPERATING_SYSTEM_XMB = 'XrossMediaBar (Playstation 3|Playstation Portable)';
+    const OPERATING_SYSTEM_LIVE_AREA = 'LiveArea (Playstation Vita)';
+    const OPERATING_SYSTEM_ORBIS = 'Orbis OS (Playstation 4)';
+    const OPERATING_SYSTEM_NINTENDO_DS = 'Nintendo DS';
+    const OPERATING_SYSTEM_NINTENDO_3DS = 'Nintendo 3DS';
+    const OPERATING_SYSTEM_NINTENDO_WII = 'Wii OS (Nintendo Wii)';
+    const OPERATING_SYSTEM_NINTENDO_WIIU = 'Wii U OS (Nintendo Wii U)';
+    const OPERATING_SYSTEM_XBOX = 'Xbox OS (Xbox (Original|360|One))';
+    //MOBILE
+    const OPERATING_SYSTEM_FIREFOX = 'FireFox OS';
+    const OPERATING_SYSTEM_TIZEN_1 = 'Tizen 1';
+    const OPERATING_SYSTEM_TIZEN_2 = 'Tizen 2';
+    const OPERATING_SYSTEM_TIZEN_3 = 'Tizen 3';
+    const OPERATING_SYSTEM_TIZEN_4 = 'Tizen 4';
+    const OPERATING_SYSTEM_WEBOS = 'WebOS';
+    const OPERATING_SYSTEM_LUNEOS = 'LuneOS';
+    //ANDROID
+    const OPERATING_SYSTEM_ANDROID = 'Android';
+    const OPERATING_SYSTEM_ANDROID_1 = 'Android 1';
+    const OPERATING_SYSTEM_ANDROID_1_5 = 'Android 1.5 Cupcake';
+    const OPERATING_SYSTEM_ANDROID_1_6 = 'Android 1.6 Donut';
+    const OPERATING_SYSTEM_ANDROID_2 = 'Android 2.0/1 Eclair';
+    const OPERATING_SYSTEM_ANDROID_2_2 = 'Android 2.2 Froyo';
+    const OPERATING_SYSTEM_ANDROID_2_3 = 'Android 2.3 Gingerbread';
+    const OPERATING_SYSTEM_ANDROID_3 = 'Android 3 Honeycomb';
+    const OPERATING_SYSTEM_ANDROID_4 = 'Android 4.0 Ice Cream Sandwich';
+    const OPERATING_SYSTEM_ANDROID_4_1 = 'Android 4.1 Jelly Bean';
+    const OPERATING_SYSTEM_ANDROID_4_2 = 'Android 4.2 Jelly Bean';
+    const OPERATING_SYSTEM_ANDROID_4_3 = 'Android 4.3 Jelly Bean';
+    const OPERATING_SYSTEM_ANDROID_4_4 = 'Android 4.4 KitKat';
+    const OPERATING_SYSTEM_ANDROID_5_0 = 'Android 5.0 Lollipop';
+    const OPERATING_SYSTEM_ANDROID_5_1 = 'Android 5.1 Lollipop';
+    const OPERATING_SYSTEM_ANDROID_6_0 = 'Android 6 Marshmallow';
+    const OPERATING_SYSTEM_ANDROID_7_0 = 'Android 7.0 Nougat';
+    const OPERATING_SYSTEM_ANDROID_7_1 = 'Android 7.1 Nougat';
+    const OPERATING_SYSTEM_ANDROID_8_0 = 'Android 8.0 Oreo';
+    const OPERATING_SYSTEM_ANDROID_8_1 = 'Android 8.1 Oreo';
+    const OPERATING_SYSTEM_ANDROID_9_0 = 'Android 9.0 Pie';
+    const OPERATING_SYSTEM_ANDROID_TV = 'Android TV';
+    //IOS
+    const OPERATING_SYSTEM_IOS = 'iOS';
+    const OPERATING_SYSTEM_IOS_4 = 'iOS 4';
+    const OPERATING_SYSTEM_IOS_5 = 'iOS 5';
+    const OPERATING_SYSTEM_IOS_6 = 'iOS 6';
+    const OPERATING_SYSTEM_IOS_7 = 'iOS 7';
+    const OPERATING_SYSTEM_IOS_8 = 'iOS 8';
+    const OPERATING_SYSTEM_IOS_9 = 'iOS 9';
+    const OPERATING_SYSTEM_IOS_10 = 'iOS 10';
+    const OPERATING_SYSTEM_IOS_11 = 'iOS 11';
+    const OPERATING_SYSTEM_IOS_12 = 'iOS 12';
+    //MAC OS
+    const OPERATING_SYSTEM_MAC = 'Mac OS';
+    const OPERATING_SYSTEM_MAC_X = 'Mac OS X';
+    const OPERATING_SYSTEM_MAC_X_10_3 = 'Mac OS X 10.3 Panther';
+    const OPERATING_SYSTEM_MAC_X_10_4 = 'Mac OS X 10.4 Tiger';
+    const OPERATING_SYSTEM_MAC_X_10_5 = 'Mac OS X 10.5 Leopard';
+    const OPERATING_SYSTEM_MAC_X_10_6 = 'Mac OS X 10.6 Snow Leopard';
+    const OPERATING_SYSTEM_MAC_X_10_7 = 'Mac OS X 10.7 Lion';
+    const OPERATING_SYSTEM_MAC_X_10_8 = 'Mac OS X 10.8 Mountain Lion';
+    const OPERATING_SYSTEM_MAC_X_10_9 = 'Mac OS X 10.9 Mavericks';
+    const OPERATING_SYSTEM_MAC_X_10_10 = 'Mac OS X 10.10 Yosemite';
+    const OPERATING_SYSTEM_MAC_X_10_11 = 'Mac OS X 10.11 El Capitan';
+    const OPERATING_SYSTEM_MAC_X_10_12 = 'Mac OS X 10.12 El Sierra';
+    const OPERATING_SYSTEM_MAC_X_10_13 = 'Mac OS X 10.13 El High Sierra';
+    const OPERATING_SYSTEM_MAC_X_10_14 = 'Mac OS X 10.14 El Mojave';
+    //LINUX
+    const OPERATING_SYSTEM_LINUX = 'Linux';
+    const OPERATING_SYSTEM_LINUX_ARCH = 'Linux (Arch Linux)';
+    const OPERATING_SYSTEM_LINUX_CENTOS = 'Linux (CentOS)';
+    const OPERATING_SYSTEM_LINUX_DEBIAN = 'Linux (Debian)';
+    const OPERATING_SYSTEM_LINUX_FEDORA = 'Linux (Fedora)';
+    const OPERATING_SYSTEM_LINUX_GENTOO = 'Linux (Gentoo)';
+    const OPERATING_SYSTEM_LINUX_KANOTIX = 'Linux (Kanotix)';
+    const OPERATING_SYSTEM_LINUX_KNOPPIX = 'Linux (Knoppix)';
+    const OPERATING_SYSTEM_LINUX_LINSPIRE = 'Linux (Linspire)';
+    const OPERATING_SYSTEM_LINUX_MAEMO = 'Linux (Maemo)';
+    const OPERATING_SYSTEM_LINUX_MAGEIA = 'Linux (Mageia)';
+    const OPERATING_SYSTEM_LINUX_MANDRIVA = 'Linux (Mandriva)';
+    const OPERATING_SYSTEM_LINUX_MINT = 'Linux (Mint)';
+    const OPERATING_SYSTEM_LINUX_REDHAT = 'Linux (RedHat)';
+    const OPERATING_SYSTEM_LINUX_SLACKWARE = 'Linux (slackware)';
+    const OPERATING_SYSTEM_LINUX_SUSE = 'Linux (Suse)';
+    const OPERATING_SYSTEM_LINUX_UBUNTU = 'Linux (Ubuntu)';
+    const OPERATING_SYSTEM_LINUX_VECTOR = 'Linux (VectorLinux)';
+    const OPERATING_SYSTEM_LINUX_PCLINUX = 'Linux (PCLinuxOS)';
+    const OPERATING_SYSTEM_LINUX_XUBUNTU = 'Linux (Xubuntu)';
+    const OPERATING_SYSTEM_LINUX_ELEMENTARY_OS = 'Linux (elementary OS)';
+    //other
+    const OPERATING_SYSTEM_AIX = 'AIX';
+    const OPERATING_SYSTEM_AMIGA = 'Amiga OS';
+    const OPERATING_SYSTEM_AROS = 'AROS';
+    const OPERATING_SYSTEM_BADA = 'Bada';
+    const OPERATING_SYSTEM_BEOS = 'BeOS';
+    const OPERATING_SYSTEM_BREW = 'Brew';
+    const OPERATING_SYSTEM_CROME = 'Crome OS';
+    const OPERATING_SYSTEM_DANGER_HIPTOP = 'Danger Hiptop';
+    const OPERATING_SYSTEM_DRAGONFLY_BSD = 'DragonFly BSD';
+    const OPERATING_SYSTEM_GNU = 'GNU OS';
+    const OPERATING_SYSTEM_HAIKU = 'Haiku OS';
+    const OPERATING_SYSTEM_HP = 'HP-UX';
+    const OPERATING_SYSTEM_INFERNO = 'Inferno OS';
+    const OPERATING_SYSTEM_IRIX = 'IRIX';
+    const OPERATING_SYSTEM_JOLI = 'Joli OS';
+    const OPERATING_SYSTEM_JVM = 'JVM (Java)';
+    const OPERATING_SYSTEM_MEEGO = 'MeeGo';
+    const OPERATING_SYSTEM_MINIX_3 = 'MINIX 3';
+    const OPERATING_SYSTEM_MORPHOS = 'MorphOs';
+    const OPERATING_SYSTEM_MSN_TV = 'MSN TV (WebTV)';
+    const OPERATING_SYSTEM_APPLE_TV = 'Apple TV';
+    const OPERATING_SYSTEM_NETBSD = 'NetBSD';
+    const OPERATING_SYSTEM_OPENBSD = 'OpenBSD';
+    const OPERATING_SYSTEM_OPENVMS = 'OpenVMS';
+    const OPERATING_SYSTEM_OS2 = 'OS/2';
+    const OPERATING_SYSTEM_OS2_WARP = 'OS/2 Warp';
+    const OPERATING_SYSTEM_PALM = 'Palm OS';
+    const OPERATING_SYSTEM_QNX = 'QNX x86pc';
+    const OPERATING_SYSTEM_RISK = 'RISK OS';
+    const OPERATING_SYSTEM_SAILFISH = 'Sailfish';
+    const OPERATING_SYSTEM_SUNOS = 'Solaris';
+    const OPERATING_SYSTEM_SYLLABLE = 'Syllable';
+    const OPERATING_SYSTEM_SYMBIAN = 'Symbian OS';
+    const OPERATING_SYSTEM_UBUNTU_TOUCH = 'Ubuntu Touch';
+    const OPERATING_SYSTEM_FREEBSD = 'FreeBSD';
+    const OPERATING_SYSTEM_OPENSOLARIS = 'OpenSolaris';
+    const OPERATING_SYSTEM_NOKIA = 'Nokia';
+    const OPERATING_SYSTEM_NOKIA_X = 'Nokia X';
+    const OPERATING_SYSTEM_TRUEOS = 'TrueOS';
+    const OPERATING_SYSTEM_KOLIBRIOS = 'KolibriOS';
+    const OPERATING_SYSTEM_COS = 'COS (China Operating System)';
+    const OPERATING_SYSTEM_ALIOS = 'AliOS';
 
     /**
      * Class constructor
@@ -416,6 +577,7 @@ class Browser
         $this->checkPlatform();
         $this->checkBrowsers();
         $this->checkForAol();
+        $this->checkOS();
     }
 
     /**
@@ -1828,5 +1990,179 @@ class Browser
             $this->_platform = self::PLATFORM_UNKNOWN;
         }
 
+    }
+
+    /**
+     * Determine the user's operating system (last updated 2.0)
+     */
+    protected function checkOS()
+    {
+        $os_array   =   array(
+            //nokia X
+            '/nokia_x/i' => self::OPERATING_SYSTEM_NOKIA_X,
+            //AliOS
+            '/aliyunos|yunos/i' => self::OPERATING_SYSTEM_ALIOS,
+            //android
+            '/android (.*)adt/i' =>  self::OPERATING_SYSTEM_ANDROID_TV,
+            '/android 9\.0/i' =>  self::OPERATING_SYSTEM_ANDROID_9_0,
+            '/android 8\.1/i' =>  self::OPERATING_SYSTEM_ANDROID_8_1,
+            '/android 8\.0/i' =>  self::OPERATING_SYSTEM_ANDROID_8_0,
+            '/android 7\.1/i' =>  self::OPERATING_SYSTEM_ANDROID_7_1,
+            '/android 7\.0/i' =>  self::OPERATING_SYSTEM_ANDROID_7_0,
+            '/android 6\.0/i' =>  self::OPERATING_SYSTEM_ANDROID_6_0,
+            '/android 5\.1/i' =>  self::OPERATING_SYSTEM_ANDROID_5_1,
+            '/android 5\.0/i' =>  self::OPERATING_SYSTEM_ANDROID_5_0,
+            '/android (4\.4|kitkat)/i' =>  self::OPERATING_SYSTEM_ANDROID_4_4,
+            '/android 4\.3/i' =>  self::OPERATING_SYSTEM_ANDROID_4_3,
+            '/android 4\.2/i' =>  self::OPERATING_SYSTEM_ANDROID_4_2,
+            '/android (4\.1|jelly bean)/i' =>  self::OPERATING_SYSTEM_ANDROID_4_1,
+            '/android (4\.0|ice cream sandwich)/i' =>  self::OPERATING_SYSTEM_ANDROID_4,
+            '/android (3|honeycomb)/i' =>  self::OPERATING_SYSTEM_ANDROID_3,
+            '/android (2\.3|gingerbread)/i' =>  self::OPERATING_SYSTEM_ANDROID_2_3,
+            '/android (2\.2|froyo)/i' =>  self::OPERATING_SYSTEM_ANDROID_2_2,
+            '/android (2\.(0|1)|eclair)/i' =>  self::OPERATING_SYSTEM_ANDROID_2,
+            '/android (1\.6|donut)/i' =>  self::OPERATING_SYSTEM_ANDROID_1_6,
+            '/android (1\.5|cupcake)/i' =>  self::OPERATING_SYSTEM_ANDROID_1_5,
+            '/android 1\.0/i' =>  self::OPERATING_SYSTEM_ANDROID_1,
+            '/android/i' =>  self::OPERATING_SYSTEM_ANDROID,
+            //consoles
+            '/playstation (3|portable)/i' =>  self::OPERATING_SYSTEM_XMB,
+            '/playstation vita/i' =>  self::OPERATING_SYSTEM_LIVE_AREA,
+            '/playstation 4/i' =>  self::OPERATING_SYSTEM_ORBIS,
+            '/nintendo 3ds/i' =>  self::OPERATING_SYSTEM_NINTENDO_3DS,
+            '/nintendo ds/i' =>  self::OPERATING_SYSTEM_NINTENDO_DS,
+            '/nintendo wiiu/i' =>  self::OPERATING_SYSTEM_NINTENDO_WIIU,
+            '/nintendo wii/i' =>  self::OPERATING_SYSTEM_NINTENDO_WII,
+            '/xbox|(windows NT 6\.1; trident)|xbmc/i' =>  self::OPERATING_SYSTEM_XBOX,
+            //windows
+            '/windows nt (6\.4|10.0)/i' => self::OPERATING_SYSTEM_WINDOWS_10,
+            '/windows nt 6\.3/i' =>  self::OPERATING_SYSTEM_WINDOWS_8_1,
+            '/windows nt 6\.2; arm; trident/i' =>  self::OPERATING_SYSTEM_WINDOWS_RT,
+            '/windows nt 6\.2/i' =>  self::OPERATING_SYSTEM_WINDOWS_8,
+            '/windows nt 6\.1/i' =>  self::OPERATING_SYSTEM_WINDOWS_7,
+            '/windows nt 6\.0/i' =>  self::OPERATING_SYSTEM_WINDOWS_VISTA,
+            '/windows nt 5\.2/i' =>  self::OPERATING_SYSTEM_WINDOWS_SERVER,
+            '/windows (nt 5\.1|xp)/i' =>  self::OPERATING_SYSTEM_WINDOWS_XP,
+            '/windows (nt 5\.0|2000)/i' =>  self::OPERATING_SYSTEM_WINDOWS_2000,
+            '/windows nt 4/i' =>  self::OPERATING_SYSTEM_WINDOWS_NT,
+            '/windows ce/i' =>  self::OPERATING_SYSTEM_WINDOWS_CE,
+            '/win98|windows[ _]98/i' =>  self::OPERATING_SYSTEM_WINDOWS_98,
+            '/win95|windows[ _]95/i' =>  self::OPERATING_SYSTEM_WINDOWS_95,
+            '/windows me|win 9x/i' =>  self::OPERATING_SYSTEM_WINDOWS_ME,
+            '/win16|windows[ _]3/i' =>  self::OPERATING_SYSTEM_WINDOWS_3,
+            '/windows phone os 7/i' =>  self::OPERATING_SYSTEM_WINDOWS_PHONE_7,
+            '/windows phone 10/i' =>  self::OPERATING_SYSTEM_WINDOWS_PHONE_10,
+            '/windows phone 8.1/i' =>  self::OPERATING_SYSTEM_WINDOWS_PHONE_8_1,
+            '/windows phone 8/i' =>  self::OPERATING_SYSTEM_WINDOWS_PHONE_8,
+            '/windows (mobile|phone)/i' =>  self::OPERATING_SYSTEM_WINDOWS_MOBILE,
+            '/windows iot 10/i' => self::OPERATING_SYSTEM_WINDOWS_10_IOT,
+            '/win/i' =>  self::OPERATING_SYSTEM_WINDOWS,
+            //IOS
+            '/os 12/i' =>  self::OPERATING_SYSTEM_IOS_12,
+            '/os 11/i' =>  self::OPERATING_SYSTEM_IOS_11,
+            '/os 10/i' =>  self::OPERATING_SYSTEM_IOS_10,
+            '/os 9/i' =>  self::OPERATING_SYSTEM_IOS_9,
+            '/os 8/i' =>  self::OPERATING_SYSTEM_IOS_8,
+            '/os 7/i' =>  self::OPERATING_SYSTEM_IOS_7,
+            '/os 6/i' =>  self::OPERATING_SYSTEM_IOS_6,
+            '/os 5/i' =>  self::OPERATING_SYSTEM_IOS_5,
+            '/os 4/i' =>  self::OPERATING_SYSTEM_IOS_4,
+            '/iphone|ipod|ipad|(x11;.*;.linux)/i' =>  self::OPERATING_SYSTEM_IOS,
+            //mac
+            '/mac os x 10[\._]14/i' =>  self::OPERATING_SYSTEM_MAC_X_10_14,
+            '/mac os x 10[\._]13/i' =>  self::OPERATING_SYSTEM_MAC_X_10_13,
+            '/mac os x 10[\._]12/i' =>  self::OPERATING_SYSTEM_MAC_X_10_12,
+            '/mac os x 10[\._]11/i' =>  self::OPERATING_SYSTEM_MAC_X_10_11,
+            '/mac os x 10[\._]10/i' =>  self::OPERATING_SYSTEM_MAC_X_10_10,
+            '/mac os x 10[\._]9/i' =>  self::OPERATING_SYSTEM_MAC_X_10_9,
+            '/mac os x 10[\._]8/i' =>  self::OPERATING_SYSTEM_MAC_X_10_8,
+            '/mac os x 10[\._]7/i' =>  self::OPERATING_SYSTEM_MAC_X_10_7,
+            '/mac os x 10[\._]6/i' =>  self::OPERATING_SYSTEM_MAC_X_10_6,
+            '/mac os x 10[\._]5/i' =>  self::OPERATING_SYSTEM_MAC_X_10_5,
+            '/mac os x 10[\._]4/i' =>  self::OPERATING_SYSTEM_MAC_X_10_4,
+            '/mac os x 10[\._]3/i' =>  self::OPERATING_SYSTEM_MAC_X_10_3,
+            '/macintosh|mac os x/i' =>  self::OPERATING_SYSTEM_MAC_X,
+            '/macos/i' =>  self::OPERATING_SYSTEM_MAC,
+            //Linux
+            '/elementary/i' => self::OPERATING_SYSTEM_LINUX_ELEMENTARY_OS,
+            '/xubuntu/i' => self::OPERATING_SYSTEM_LINUX_XUBUNTU,
+            '/pclinuxosx/i' =>  self::OPERATING_SYSTEM_LINUX_PCLINUX,
+            '/vectorlinux/i' =>  self::OPERATING_SYSTEM_LINUX_VECTOR,
+            '/ubuntu/i' =>  self::OPERATING_SYSTEM_LINUX_UBUNTU,
+            '/suse/i' =>  self::OPERATING_SYSTEM_LINUX_SUSE,
+            '/slackware/i' =>  self::OPERATING_SYSTEM_LINUX_SLACKWARE,
+            '/red hat modified/i' =>  self::OPERATING_SYSTEM_LINUX_REDHAT,
+            '/mint/i' =>  self::OPERATING_SYSTEM_LINUX_MINT,
+            '/mandriva/i' =>  self::OPERATING_SYSTEM_LINUX_MANDRIVA,
+            '/mageia/i' =>  self::OPERATING_SYSTEM_LINUX_MAGEIA,
+            '/maemo/i' =>  self::OPERATING_SYSTEM_LINUX_MAEMO,
+            '/linspire/i' =>  self::OPERATING_SYSTEM_LINUX_LINSPIRE,
+            '/knoppix/i' =>  self::OPERATING_SYSTEM_LINUX_KNOPPIX,
+            '/kanotix/i' =>  self::OPERATING_SYSTEM_LINUX_KANOTIX,
+            '/gentoo/i' =>  self::OPERATING_SYSTEM_LINUX_GENTOO,
+            '/fedora/i' =>  self::OPERATING_SYSTEM_LINUX_FEDORA,
+            '/debian/i' =>  self::OPERATING_SYSTEM_LINUX_DEBIAN,
+            '/centos/i' =>  self::OPERATING_SYSTEM_LINUX_CENTOS,
+            '/arch linux/i' =>  self::OPERATING_SYSTEM_LINUX_ARCH,
+            //other
+            '/rim tablet os 1/i' =>  self::OPERATING_SYSTEM_BLACKBERRY_TABLET_OS_1,
+            '/rim tablet os 2/i' =>  self::OPERATING_SYSTEM_BLACKBERRY_TABLET_OS_2,
+            '/blackberry/i' =>  self::OPERATING_SYSTEM_BLACKBERRY,
+            '/freebsd/i' =>  self::OPERATING_SYSTEM_FREEBSD,
+            '/openbsd/i' =>  self::OPERATING_SYSTEM_OPENBSD,
+            '/netbsd/i' =>  self::OPERATING_SYSTEM_NETBSD,
+            '/opensolaris/i' =>  self::OPERATING_SYSTEM_OPENSOLARIS,
+            '/sunos/i' =>  self::OPERATING_SYSTEM_SUNOS,
+            '/warp/i' =>  self::OPERATING_SYSTEM_OS2_WARP,
+            '/os\/2/i' =>  self::OPERATING_SYSTEM_OS2,
+            '/heiku/i' =>  self::OPERATING_SYSTEM_HAIKU,
+            '/beos/i' =>  self::OPERATING_SYSTEM_BEOS,
+            '/firefox\//i' =>  self::OPERATING_SYSTEM_FIREFOX,
+            '/aix/i' =>  self::OPERATING_SYSTEM_AIX,
+            '/amiga/i' =>  self::OPERATING_SYSTEM_AMIGA,
+            '/aros/i' =>  self::OPERATING_SYSTEM_AROS,
+            '/bada/i' =>  self::OPERATING_SYSTEM_BADA,
+            '/brew/i' =>  self::OPERATING_SYSTEM_BREW,
+            '/cros/i' =>  self::OPERATING_SYSTEM_CROME,
+            '/danger hiptop/i' =>  self::OPERATING_SYSTEM_DANGER_HIPTOP,
+            '/dragonfly/i' =>  self::OPERATING_SYSTEM_DRAGONFLY_BSD,
+            '/gnu/i' =>  self::OPERATING_SYSTEM_GNU,
+            '/hp-ux/i' =>  self::OPERATING_SYSTEM_HP,
+            '/inferno/i' =>  self::OPERATING_SYSTEM_INFERNO,
+            '/irix/i' =>  self::OPERATING_SYSTEM_IRIX,
+            '/jolicloud/i' =>  self::OPERATING_SYSTEM_JOLI,
+            '/java/i' =>  self::OPERATING_SYSTEM_JVM,
+            '/meego/i' =>  self::OPERATING_SYSTEM_MEEGO,
+            '/minix 3/i' =>  self::OPERATING_SYSTEM_MINIX_3,
+            '/morphos/i' =>  self::OPERATING_SYSTEM_MORPHOS,
+            '/webtv/i' =>  self::OPERATING_SYSTEM_MSN_TV,
+            '/appletv/i' => self::OPERATING_SYSTEM_APPLE_TV,
+            '/openvms/i' =>  self::OPERATING_SYSTEM_OPENVMS,
+            '/palm os/i' =>  self::OPERATING_SYSTEM_PALM,
+            '/qnx x86pc/i' =>  self::OPERATING_SYSTEM_QNX,
+            '/risc os|risk os/i' =>  self::OPERATING_SYSTEM_RISK,
+            '/sailfish/i' =>  self::OPERATING_SYSTEM_SAILFISH,
+            '/syllable/i' =>  self::OPERATING_SYSTEM_SYLLABLE,
+            '/symbos/i' =>  self::OPERATING_SYSTEM_SYMBIAN,
+            '/tizen 4/i' =>  self::OPERATING_SYSTEM_TIZEN_4,
+            '/tizen 3/i' =>  self::OPERATING_SYSTEM_TIZEN_3,
+            '/tizen 2/i' =>  self::OPERATING_SYSTEM_TIZEN_2,
+            '/tizen/i' =>  self::OPERATING_SYSTEM_TIZEN_1,
+            '/ubuntu; (mobile|tablet)/i' =>  self::OPERATING_SYSTEM_UBUNTU_TOUCH,
+            '/webos/i' =>  self::OPERATING_SYSTEM_WEBOS,
+            '/luneos/i' => self::OPERATING_SYSTEM_LUNEOS,
+            '/nokia/i' =>  self::OPERATING_SYSTEM_NOKIA,
+            '/trueos/i' => self::OPERATING_SYSTEM_TRUEOS,
+            '/kolibri/i' => self::OPERATING_SYSTEM_KOLIBRIOS,
+            '/cos/i' => self::OPERATING_SYSTEM_COS,
+
+            '/linux/i' =>  self::OPERATING_SYSTEM_LINUX,
+        );
+        foreach($os_array as $regex => $value){ 
+            if(preg_match($regex, $this->_agent)){
+                $this->_os = $value;
+                return;
+            }
+        } 
     }
 }
