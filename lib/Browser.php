@@ -2165,4 +2165,22 @@ class Browser
             }
         } 
     }
+
+    /**
+     * The name of the operating system.  All return types are from the class contants
+     * @return string Name of the operating system
+     */
+    public function getOS()
+    {
+        return $this->_os;
+    }
+
+    /**
+     * Set the name of the operating system
+     * @param string $os The name of the operating system
+     */
+    public function setOS($os)
+    {
+        $this->_os = $os;
+    }
 }
