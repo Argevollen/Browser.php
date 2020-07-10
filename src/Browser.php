@@ -3,7 +3,7 @@
  * File: Browser.php
  * Author: Chris Schuld (http://chrisschuld.com/)
  * Last Modified: April 14th, 2020
- * @version 2.1
+ * @version 1.9.7
  *
  * Copyright 2019 Chris Schuld
  * 
