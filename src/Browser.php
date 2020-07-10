@@ -1255,7 +1255,10 @@ class Browser
             return true;
         } else if (stripos($this->_agent, 'OPR') !== false) {
             $resultant = stristr($this->_agent, 'OPR');
-            if (preg_match('/\//', $resultant)) {
+            if( preg_match('/Version\/(10.*)$/',$resultant,$matches) ) {
+                $this->setVersion($matches[1]);
+            }
+            else if (preg_match('/\//', $resultant)) {
                 $aresult = explode('/', str_replace("(", " ", $resultant));
                 if (isset($aresult[1])) {
                     $aversion = explode(' ', $aresult[1]);
